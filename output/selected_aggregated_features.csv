@@ -1,0 +1,35 @@
+"feature","level","node","n_leaf_codes","leaves_under_node","leaf_codes","description","prev_cases","prev_controls","refit_OR"
+1,"leaf (full code)","29530",1,1,"29530","Paranoid type schizophrenia, unspecified",0.036,0.007,3.33
+2,"leaf (full code)","29532",1,1,"29532","Paranoid type schizophrenia, chronic",0.015,0.006,2.01
+3,"leaf (full code)","29534",1,1,"29534","Paranoid type schizophrenia, chronic with acute exacerbation",0.005,0.003,0.25
+4,"leaf (full code)","29535",1,1,"29535","Paranoid type schizophrenia, in remission",0.015,0.001,31.94
+5,"leaf (full code)","29590",1,1,"29590","Unspecified schizophrenia, unspecified",0.061,0.015,2.23
+6,"leaf (full code)","29592",1,1,"29592","Unspecified schizophrenia, chronic",0.005,0.003,1.08
+7,"leaf (full code)","29594",1,1,"29594","Unspecified schizophrenia, chronic with acute exacerbation",0.015,0.001,3.55
+8,"leaf (full code)","29660",1,1,"29660","Bipolar I disorder, most recent episode (or current) mixed, unspecified",0.015,0.003,1.5
+9,"leaf (full code)","29662",1,1,"29662","Bipolar I disorder, most recent episode (or current) mixed, moderate",0.01,0.002,3.31
+10,"leaf (full code)","29663",1,1,"29663","Bipolar I disorder, most recent episode (or current) mixed, severe, without mention of psychotic behavior",0.01,0.005,0.15
+11,"leaf (full code)","29664",1,1,"29664","Bipolar I disorder, most recent episode (or current) mixed, severe, specified as with psychotic behavior",0.026,0.002,7.5
+12,"leaf (full code)","29680",1,1,"29680","Bipolar disorder, unspecified",0.097,0.032,1.81
+13,"leaf (full code)","29681",1,1,"29681","Atypical manic disorder",0,0.003,0
+14,"leaf (full code)","29689",1,1,"29689","Other bipolar disorders",0.026,0.006,1.79
+15,"leaf (full code)","30500",1,1,"30500","Alcohol abuse, unspecified",0.061,0.011,3.23
+16,"leaf (full code)","30501",1,1,"30501","Alcohol abuse, continuous",0.01,0.002,0.65
+17,"leaf (full code)","30503",1,1,"30503","Alcohol abuse, in remission",0.01,0.002,1.68
+18,"leaf (full code)","29504",1,1,"29504","Simple type schizophrenia, chronic with acute exacerbation",0.01,0.002,2.98
+19,"4-digit","2951",2,2,"29514 29515","Disorganized type schizophrenia, chronic with acute exacerbation | Disorganized type schizophrenia, in remission",0.015,0.004,0.83
+20,"leaf (full code)","29524",1,1,"29524","Catatonic type schizophrenia, chronic with acute exacerbation",0.005,0.003,1.02
+21,"leaf (full code)","29560",1,1,"29560","Schizophrenic disorders, residual type, unspecified",0.02,0.001,17.29
+22,"4-digit","2957",2,2,"29570 29574","Schizoaffective disorder, unspecified | Schizoaffective disorder, chronic with acute exacerbation",0.066,0.017,1.02
+23,"leaf (full code)","3051",1,1,"3051","Tobacco use disorder",0.173,0.138,0.76
+24,"leaf (full code)","30520",1,1,"30520","Cannabis abuse, unspecified",0.005,0.005,0.51
+25,"leaf (full code)","30590",1,1,"30590","Other, mixed, or unspecified drug abuse, unspecified",0.026,0.006,2.36
+26,"leaf (full code)","3090",1,1,"3090","Adjustment disorder with depressed mood",0,0.003,0
+27,"leaf (full code)","30981",1,1,"30981","Posttraumatic stress disorder",0.046,0.008,2.93
+28,"leaf (full code)","3099",1,1,"3099","Unspecified adjustment reaction",0,0.003,0
+29,"3-digit","296",30,37,"29600 29602 29604 29606 29610 29611 29612 29613 29620 29622 29623 29624 29625 29626 29630 29631 29632 29633 29634 29635 29640 29644 29645 29650 29651 29653 29654 29656 2967 29690","Bipolar I disorder, single manic episode, unspecified | ... (30 codes)",0.224,0.081,2.26
+30,"leaf (full code)","2971",1,1,"2971","Delusional disorder",0.02,0.004,2.18
+31,"3-digit","298",2,2,"2988 2989","Other and unspecified reactive psychosis | Unspecified psychosis",0.051,0.023,1.17
+32,"section","290-294",15,15,"2900 29010 29020 29021 2903 29040 29041 29181 2920 29281 2930 29410 29411 2948 2949","Senile dementia, uncomplicated | ... (15 codes)",0.179,0.157,0.85
+33,"section","300-316",20,29,"30000 30001 30002 30009 3003 3004 3009 30183 3019 30390 30391 30400 30401 30420 30421 30752 3079 3083 311 31230","Anxiety state, unspecified | ... (20 codes)",0.332,0.231,1.12
+34,"section","317-319",3,3,"317 3181 319","Mild intellectual disabilities | Severe intellectual disabilities | Unspecified intellectual disabilities",0.036,0.014,2

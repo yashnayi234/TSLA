@@ -1,0 +1,98 @@
+== What cv.TSLA returns ==
+List of 12
+ $ lambda.min      : num 18.8
+ $ alpha.min       : num 0.5
+ $ cvm             : num [1:6, 1:3] 0.525 0.545 0.532 0.54 0.554 ...
+ $ cvsd            : num [1:6, 1:3] 0.0439 0.0711 0.0532 0.0748 0.0669 ...
+ $ TSLA.fit        :List of 9
+ $ Intercept.min   : num -2.55
+ $ cov.min         : Named num [1:2] 0.0016 0.0617
+ $ beta.min        : Named num [1:405] -0.000817 -0.000817 -0.001431 -0.001049 -0.0008 ...
+ $ gamma.min       : Named num [1:442] -6.37e-05 -6.37e-05 -5.71e-04 -1.89e-04 -4.61e-05 ...
+ $ groupnorm.min   : num [1:38] 7.74e-05 4.78e-05 1.34e-05 6.60e-05 2.43e-02 ...
+ $ lambda.min.index: Named int 4
+ $ alpha.min.index : Named int 2
+
+Chosen tuning: lambda.min = 18.8  alpha.min = 0.5  (alpha = weight on the generalized-lasso/aggregation part; 1 - alpha on the group-lasso/selection part)
+CV AUC grid (rows = lambda, cols = alpha):
+      [,1]  [,2]  [,3]
+[1,] 0.525 0.531 0.532
+[2,] 0.545 0.531 0.532
+[3,] 0.532 0.531 0.530
+[4,] 0.540 0.560 0.536
+[5,] 0.554 0.503 0.549
+[6,] 0.507 0.506 0.507
+
+== Selected / aggregated features at lambda.min ( 34 ) ==
+ feature            level    node n_leaf_codes leaves_under_node prev_cases
+       1 leaf (full code)   29530            1                 1      0.036
+       2 leaf (full code)   29532            1                 1      0.015
+       3 leaf (full code)   29534            1                 1      0.005
+       4 leaf (full code)   29535            1                 1      0.015
+       5 leaf (full code)   29590            1                 1      0.061
+       6 leaf (full code)   29592            1                 1      0.005
+       7 leaf (full code)   29594            1                 1      0.015
+       8 leaf (full code)   29660            1                 1      0.015
+       9 leaf (full code)   29662            1                 1      0.010
+      10 leaf (full code)   29663            1                 1      0.010
+      11 leaf (full code)   29664            1                 1      0.026
+      12 leaf (full code)   29680            1                 1      0.097
+      13 leaf (full code)   29681            1                 1      0.000
+      14 leaf (full code)   29689            1                 1      0.026
+      15 leaf (full code)   30500            1                 1      0.061
+      16 leaf (full code)   30501            1                 1      0.010
+      17 leaf (full code)   30503            1                 1      0.010
+      18 leaf (full code)   29504            1                 1      0.010
+      19          4-digit    2951            2                 2      0.015
+      20 leaf (full code)   29524            1                 1      0.005
+      21 leaf (full code)   29560            1                 1      0.020
+      22          4-digit    2957            2                 2      0.066
+      23 leaf (full code)    3051            1                 1      0.173
+      24 leaf (full code)   30520            1                 1      0.005
+      25 leaf (full code)   30590            1                 1      0.026
+      26 leaf (full code)    3090            1                 1      0.000
+      27 leaf (full code)   30981            1                 1      0.046
+      28 leaf (full code)    3099            1                 1      0.000
+      29          3-digit     296           30                37      0.224
+      30 leaf (full code)    2971            1                 1      0.020
+      31          3-digit     298            2                 2      0.051
+      32          section 290-294           15                15      0.179
+      33          section 300-316           20                29      0.332
+      34          section 317-319            3                 3      0.036
+ prev_controls refit_OR
+         0.007     3.33
+         0.006     2.01
+         0.003     0.25
+         0.001    31.94
+         0.015     2.23
+         0.003     1.08
+         0.001     3.55
+         0.003     1.50
+         0.002     3.31
+         0.005     0.15
+         0.002     7.50
+         0.032     1.81
+         0.003     0.00
+         0.006     1.79
+         0.011     3.23
+         0.002     0.65
+         0.002     1.68
+         0.002     2.98
+         0.004     0.83
+         0.003     1.02
+         0.001    17.29
+         0.017     1.02
+         0.138     0.76
+         0.005     0.51
+         0.006     2.36
+         0.003     0.00
+         0.008     2.93
+         0.003     0.00
+         0.081     2.26
+         0.004     2.18
+         0.023     1.17
+         0.157     0.85
+         0.231     1.12
+         0.014     2.00
+
+Full table with codes + descriptions: output/selected_aggregated_features.csv 

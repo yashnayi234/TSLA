@@ -1,0 +1,14 @@
+Beneficiaries: 116352 
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  1458397  77.9    2970538 158.7  2243671 119.9
+Vcells 18543793 141.5   54479876 415.7 84945148 648.1
+Claims: 846242  diagnosis rows: 2834736 
+People with any E950-E959 code: 214 
+Cases after dropping 'first visit = self-harm': 196 of 214 
+Controls per case:  10 (distribution of counts)
+Records: 2156  cases: 196  controls: 1960  unique people: 2113 
+Distinct MH codes before index (unscreened): 307 
+Codes kept after prevalence screen (>= 5 records): 101 
+Tree nodes per level: leaf 101; d4 56; d3 22; section 4; chapter 1 
+Children per section (3-digit codes): 5,4,10,3 
+Saved output/analysis_data.rds  runtime: 20 s
